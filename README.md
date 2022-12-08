@@ -83,6 +83,8 @@ We analyzed the cases where the model fails to classify the assertion properly. 
 
 - When the actual justifiable information is only a subtle mention in the story, the model does not give much attention to the mention, thus failing on classifying an inference statement based on that particular information.
 
+### Conclusion
+We were able to improve the model’s performance by employing various techniques and training speeds by utilizing TPUs.
 
 ### Links
 
