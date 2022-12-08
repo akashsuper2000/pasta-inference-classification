@@ -69,8 +69,12 @@ We were able to improve the model’s performance by a significant amount using 
 
 ## Links
 
-Dataset link: https://www.kaggle.com/datasets/akashsuper2000/participant-states/
+Dataset link: https://www.kaggle.com/datasets/akashsuper2000/participant-states
 
-Model weights link: https://www.kaggle.com/datasets/akashsuper2000/pasta-dataset/
+Model weights link: https://www.kaggle.com/datasets/akashsuper2000/pasta-dataset
 
 PASTA paper link: https://arxiv.org/abs/2208.00329
+
+Kaggle training notebook link: https://www.kaggle.com/code/saiphani724/bert-roberta-t5-base-pasta
+
+Kaggle evaluation notebook link: https://www.kaggle.com/code/akashsuper2000/bert-roberta-t5-base-pasta
