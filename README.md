@@ -20,7 +20,6 @@ The main evaluation criteria for this task is to measure the model performance w
 
 
 ### Outcomes
-
 - We implemented various transformer models such as BERT-base, RoBERTa-base, T5-base, and T5-large for inference classification using the PASTA dataset.
 
 - We improved the performance of the models by employing methods such as using model-specific embeddings and tokenizers, data pre-processing, data augmentation, and hyperparameter tuning, as seen through the significant improvement in the AUC-ROC metric.
@@ -31,12 +30,10 @@ The main evaluation criteria for this task is to measure the model performance w
 
 
 ### Task
-
 The task of this project is to train a model that effectively classifies whether a given assertion is warranted by the given story. 
 
 
 ### Dataset
-
 We used the Participant States (PASTA) dataset for this task. PASTA dataset contains a list of story lines, their corresponding assertion statement, a mod assertion statement, and the same story lines modified to warrant the mod assertion statement.
 
 We constructed the dataset by merging the story lines of both, original and mod stories, and taking all the combinations of stories and lines for constructing 2 instances of positive and negative examples for each data row in the original dataset.
@@ -73,6 +70,14 @@ We used a variety of evaluation metrics to understand the performance of the mod
 ### Results
 
 We were able to improve the model’s performance by a significant amount using the above-mentioned techniques. This can be inferred from the high AUC-ROC score of the models, specifically that of the T5-large model.
+
+
+### Analysis
+We analyzed the cases where the model fails to classify the assertion properly. A couple of instance types are:
+
+- Assertion is based on a general knowledge fact that is not explicitly specified in the story. For example, for the story "Jane was excited for the July 4th holiday" and the inference "Jane lives in Mexico, not in the US", the model is unable to understand the fact that July 4th is a US-specific holiday and hence the inference should be false.
+
+- When the actual justifiable information is only a subtle mention in the story, the model does not give much attention to the mention, thus failing on classifying an inference statement based on that particular information.
 
 
 ### Links
