@@ -4,7 +4,11 @@
 Please find the link to the Kaggle notebooks at the bottom of this README file. All the commands are directly present in the notebook. There are 2 notebooks - one for training and one for evaluation.
 
 ### System requirements
-Standard Kaggle TPUs (not the newer one) and other compute resources provided by Kaggle.
+Standard compute resources provided by Kaggle:
+- CPU: 2-core Intel Xeon
+- RAM: 16 GB
+- Storage: 75 GB
+- TPU: 8-core v3-8
 
 ## Project Report
 
