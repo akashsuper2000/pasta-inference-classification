@@ -56,7 +56,7 @@ Specifically, we focused on two aspects of model training that could significant
 On a different aspect, we also aimed to improve the model training speed and efficiency. In order to achieve this, we employed the use of TPU cores provided by Kaggle (a platform for machine learning competitions). Specifically, we used 8 TPU cores to train multiple batches of training data parallelly, with a significant boost to the training speed per core.
 
 
-### Evaluation measures
+### Evaluation
 
 We used a variety of evaluation metrics to understand the performance of the models. The following are the relevant ones:
 
